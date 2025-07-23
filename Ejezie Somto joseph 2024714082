@@ -1,0 +1,25 @@
+  #  Grading system program
+
+score = int(input("Enter the score:0-100 "))
+
+if score >= 70 and score <= 100:
+    print("Grade is A")
+    print("yes")
+if score >= 60 and score <= 69:
+    print("Grade is B")
+    print("yes")
+if score >= 50 and score <= 59:
+    print("Grade is C")
+    print("yes")
+if score >= 45 and score <= 49:
+    print("Grade is D")
+    print("yes")
+if score >= 40 and score <= 44:
+    print("Grade is E")
+    print("yes")
+if score >= 0 and score <= 39:
+    print("Grade is F")
+    print("yes")
+if score < 0 or score > 100:
+    print("Invalid score")
+    print("No")
